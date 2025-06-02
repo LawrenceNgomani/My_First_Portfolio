@@ -2,30 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Tweets</title>
+  <title>Tweets - My Portfolio</title>
+  <link rel="stylesheet" href="index.html">
 </head>
 <body>
-
-  <!-- Level-1 Heading -->
-  <h1>My Embedded Tweet</h1>
-
-  <!-- Embed a single tweet (example from Twitter docs) -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-      Just setting up my twttr
-      <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">
-        March 21, 2006
-      </a>
-    </p>
-    &mdash; jack (@jack)
-    <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  <!-- Link back to index.html for users who want to return home -->
-  <p>
-    <a href="index.html">◀ Back to Home</a>
-  </p>
-
+  <!-- HEADER: a UL of links to both pages -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- MAIN: article + aside -->
+  <main>
+    <article>
+      <!-- Level-1 Heading -->
+      <h1>My Embedded Tweet</h1>
+      <!-- Embed a single tweet (from Twitter's official embed code) -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          Just setting up my twttr
+          <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">
+            March 21, 2006
+          </a>
+        </p>
+        &mdash; jack (@jack)
+        <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+  <!-- FOOTER: single‐line paragraph -->
+  <footer>
+    <p>Made by LawrenceNgomani - <a href="https://github.com/LawrenceNgomani/My_First_Portfolio" target="_blank">here</a></p>
+  </footer>
 </body>
 </html>
